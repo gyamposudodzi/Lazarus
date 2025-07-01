@@ -1,1 +1,0 @@
-igh_15m, high_5m, close_1m, real_volume_15m, open_15m, spread_15m, open_1m, low_5m, low_1m, close_15m, spread_1m, real_volume_5m, open_5m, tick_volume_1m, close_5m, real_volume_1m, high_1m, tick_volume_15m, tick_volume_5m, spread_5m, low_15m
