@@ -1,0 +1,78 @@
+{
+    "version": 3,
+    "model_file": "xgboost_model_v3.pkl",
+    "timestamp": "2025-07-01 01:10:37",
+    "features": [
+        "open_1m",
+        "high_1m",
+        "low_1m",
+        "close_1m",
+        "tick_volume_1m",
+        "spread_1m",
+        "real_volume_1m",
+        "open_5m",
+        "high_5m",
+        "low_5m",
+        "close_5m",
+        "tick_volume_5m",
+        "spread_5m",
+        "real_volume_5m",
+        "open_15m",
+        "high_15m",
+        "low_15m",
+        "close_15m",
+        "tick_volume_15m",
+        "spread_15m",
+        "real_volume_15m"
+    ],
+    "label_distribution": {
+        "class_0": 8055,
+        "class_1": 7945
+    },
+    "accuracy": 0.5923,
+    "auc": 0.5875,
+    "confusion_matrix": [
+        [
+            583,
+            1391
+        ],
+        [
+            240,
+            1786
+        ]
+    ],
+    "classification_report": {
+        "0": {
+            "precision": 0.7083839611178615,
+            "recall": 0.29533941236068895,
+            "f1-score": 0.41687522345370037,
+            "support": 1974.0
+        },
+        "1": {
+            "precision": 0.5621655649984262,
+            "recall": 0.8815399802566634,
+            "f1-score": 0.6865270036517394,
+            "support": 2026.0
+        },
+        "accuracy": 0.59225,
+        "macro avg": {
+            "precision": 0.6352747630581439,
+            "recall": 0.5884396963086762,
+            "f1-score": 0.5517011135527199,
+            "support": 4000.0
+        },
+        "weighted avg": {
+            "precision": 0.6343243434833675,
+            "recall": 0.59225,
+            "f1-score": 0.553453850124007,
+            "support": 4000.0
+        }
+    },
+    "eval_set": "20% test split",
+    "timeframes": [
+        "1m",
+        "5m",
+        "15m"
+    ],
+    "bar_count": 20000
+}
