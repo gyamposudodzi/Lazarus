@@ -1,0 +1,22 @@
+{
+  "risk_management": {
+    "max_risk_per_trade": 0.02,
+    "stop_loss_atr_multiplier": 2.0,
+    "take_profit_atr_multiplier": 3.0,
+    "max_concurrent_trades": 3
+  },
+  "signal_thresholds": {
+    "high_confidence_threshold": 70,
+    "low_confidence_threshold": 40,
+    "minimum_signal_strength": 3
+  },
+  "time_filters": {
+    "avoid_news_hours": true,
+    "london_session_boost": true,
+    "new_york_session_boost": true
+  },
+  "alert_settings": {
+    "enable_alerts": true,
+    "alert_threshold": 4
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "mt5": {
+    "login": 28388828,
+    "password": "vm&xR%..hQ5y8J9",
+    "server": "Deriv-Demo",
+    "path": "C:\\Program Files\\MetaTrader 5\\terminal64.exe"
+  },
+  "risk": {
+    "max_daily_loss": 5500,
+    "max_daily_trades": 100,
+    "max_concurrent_trades": 30,
+    "risk_per_trade": 0.02,
+    "min_confidence": 0,
+    "max_spread": 3.0,
+    "slippage": 3,
+    "min_balance": 4000
+  },
+  "trading": {
+    "magic_number": 123456,
+    "comment": "AutoBot_v1",
+    "enable_partial_close": true,
+    "trailing_stop": true,
+    "break_even": true,
+    "break_even_pips": 15,
+    "break_even_offset": 5
+  },
+  "symbols": {
+    "EURUSD": {
+      "min_lot": 0.01,
+      "max_lot": 1.0,
+      "pip_value": 10
+    },
+    "GBPUSD": {
+      "min_lot": 0.01,
+      "max_lot": 1.0,
+      "pip_value": 10
+    },
+    "USDJPY": {
+      "min_lot": 0.01,
+      "max_lot": 1.0,
+      "pip_value": 9.09
+    },
+    "AUDUSD": {
+      "min_lot": 0.01,
+      "max_lot": 1.0,
+      "pip_value": 10
+    },
+    "USDCAD": {
+      "min_lot": 0.01,
+      "max_lot": 1.0,
+      "pip_value": 7.69
+    },
+    "USDCHF": {
+      "min_lot": 0.01,
+      "max_lot": 1.0,
+      "pip_value": 10
+    },
+    "NZDUSD": {
+      "min_lot": 0.01,
+      "max_lot": 1.0,
+      "pip_value": 10
+    },
+    "XAUUSD": {
+      "min_lot": 0.01,
+      "max_lot": 1.0,
+      "pip_value": 1
+    }
+  },
+  "notifications": {
+    "email_enabled": false,
+    "email_address": "",
+    "webhook_url": ""
+  }
+}
