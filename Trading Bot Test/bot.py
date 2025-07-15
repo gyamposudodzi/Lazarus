@@ -277,7 +277,7 @@ class MT5TradingBot:
                 'magic_number': 123456,
                 'comment': "AutoBot_v1",
                 'enable_partial_close': True,
-                'trailing_stop': False,
+                'trailing_stop': True,
                 'break_even': True,
                 'break_even_pips': 20,
                 'break_even_offset': 5

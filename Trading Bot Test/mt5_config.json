@@ -21,7 +21,7 @@
     "enable_partial_close": true,
     "trailing_stop": true,
     "break_even": true,
-    "break_even_pips": 15,
+    "break_even_pips": 20,
     "break_even_offset": 5
   },
   "symbols": {
@@ -63,7 +63,7 @@
     "XAUUSD": {
       "min_lot": 0.01,
       "max_lot": 1.0,
-      "pip_value": 1
+      "pip_value": 10
     }
   },
   "notifications": {
