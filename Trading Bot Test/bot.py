@@ -258,20 +258,20 @@ class MT5TradingBot:
         """Load configuration with better error handling"""
         default_config = {
             'mt5': {
-                'login': 28388828,
-                'password': "vm&xR%..hQ5y8J9",
-                'server': "Deriv-Demo",
+                'login': 5038366265,
+                'password': "-0NfSdPi",
+                'server': "MetaQuotes-Demo",
                 'path': r"C:\Program Files\MetaTrader 5\terminal64.exe"
             },
             'risk': {
                 'max_daily_loss': 1000,
                 'max_daily_trades': 100,
                 'max_concurrent_trades': 30,
-                'risk_per_trade': 0.02,
-                'min_confidence': 70,
+                'risk_per_trade': 0.05,
+                'min_confidence': 0,
                 'max_spread': 3.0,
                 'slippage': 3,
-                'min_balance': 5000
+                'min_balance': 0
             },
             'trading': {
                 'magic_number': 123456,
